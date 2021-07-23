@@ -29,7 +29,7 @@ export default async (req, res) => {
 	res.setPreviewData({})
 
 	// Redirect to the slug
-	res.writeHead(307, { Location: '/poop' })
+	res.writeHead(302, { Location: '/home' })
 	res.end()
 
 }
